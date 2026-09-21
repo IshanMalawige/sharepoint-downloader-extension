@@ -24,13 +24,12 @@ A lightweight, automated background tool built using **Python Flask**, **yt-dlp*
        ▼
 [ Final Synchronized MP4 File ]
 
+
 Zero-Click Background Startup: Automatically runs the Flask server silently on http://127.0.0.1:5000 via VBScript and Windows Batch scripts upon Windows login.
-
 Session Cookie Interception: Captures active authenticated session cookies and .mpd/.m3u8 stream manifest URLs with a single extension click.
-
 10x Download Speed Boost: Optimizes yt-dlp via multi-threaded concurrent fragment fetching (-N 10) and chunk-size adjustments, boosting speeds from ~200 KiB/s to ~2.5+ MiB/s.
-
 Automated FFmpeg Multiplexing: Seamlessly merges separate DASH video (.mp4) and audio (.m4a) streams into a single, synchronized MP4 output without quality loss
+
 📁 Repository Directory Structure
 Plaintext
 sharepoint-downloader-extension/
@@ -40,19 +39,17 @@ sharepoint-downloader-extension/
 ├── app.py              # Flask Backend Server & yt-dlp execution pipeline
 ├── run_server.bat      # Batch script to launch Flask app
 └── run_hidden.vbs      # VBScript for silent background execution
+
 🛠️ Quick Setup Guide
+
 1. Browser Extension Setup
 Open Google Chrome or Brave Browser and navigate to chrome://extensions/.
-
 Enable Developer mode in the top right corner.
-
 Click Load unpacked and select this repository folder.
 
 2. Windows Startup Setup (shell:startup)
 Press Win + R, type shell:startup, and press Enter.
-
 Create a Shortcut of run_hidden.vbs.
-
 Move the created shortcut file into the shell:startup folder.
 
 🤖 AI Collaboration Acknowledgment
