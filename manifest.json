@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "SharePoint Video Downloader",
+  "version": "1.0",
+  "description": "One-click download for SharePoint videos using yt-dlp",
+  "permissions": [
+    "activeTab",
+    "cookies",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*.sharepoint.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
